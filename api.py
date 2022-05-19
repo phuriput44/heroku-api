@@ -4,7 +4,6 @@ from coinmarketcapapi import CoinMarketCapAPIError, Response
 from flask import Flask, jsonify
 from flask_cors import CORS
 from multiprocessing import Process, Pipe
-from coinmarketcap import main
 from reddit import mainRd
 from twitter import mainTw
 from getDetail import Detail
